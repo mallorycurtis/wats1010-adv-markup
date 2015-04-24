@@ -1,1 +1,67 @@
-/* Styles for the Advanced Markup assignment. */
+html {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+h1 {
+	text-align:center;
+}
+
+nav {
+	border-bottom: 3px solid black;
+	border-top: 3px solid black;
+}
+
+nav ul li { 
+    display:inline;
+	padding-left:75px;
+	padding-right:75px;
+	font-size: large;
+}
+
+nav ul {
+	text-align:center;
+	clear: both;
+}
+
+.poem {
+	list-style-type:none;
+	text-align:center;
+	line-height:1.5;
+	padding-top:30px;
+	padding-bottom:30px;
+}
+
+#sidebar {
+	border: 3px solid black;
+	float:right;
+	width: 225px;
+	padding-left:20px;
+	padding-right:20px;
+	margin-left: 15px;
+	margin-bottom:15px;
+	margin-top:15px;
+}
+
+.bio-photo {
+	border: 3px solid black;
+	float: left;
+	width: 300px;
+	text-align: center;
+	padding-top:20px;
+	padding-bottom: 20px;
+	margin-right: 20px;
+}
+
+.active {
+	font-weight:bold;
+	text-decoration:underline;
+}
+/*add in social images*/
+ul li {
+	list-style-type:none;
+}
+
+a:hover {
+	font-style: italic;
+}
